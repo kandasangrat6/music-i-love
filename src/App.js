@@ -1,18 +1,13 @@
 import './App.css';
+import UserCard from "./UserCard";
+import AppBar from "./AppBar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://github.com/kandasangrat6/music-i-love"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          source code
-        </a>
-      </header>
+
+        <UserCard />
+        <AppBar />
     </div>
   );
 }

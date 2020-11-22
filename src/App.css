@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  display: grid;
+  place-items: center;
+  margin-top: 1rem;
 }
 
 .App-header {
